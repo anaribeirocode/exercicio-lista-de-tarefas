@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    background-image: url(/img/fundo-de-textura-preta.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 500px;
+    margin-top: 100px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    height: 230px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 70px 70px 70px 7cqmax;
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); /* Suporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    border-radius: 30px;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #c26732;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #884608;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #dc3545;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+#mensagem-vazia {
+    text-align: center;
+    color: #7c7c7c;
+    display: none;
+}
